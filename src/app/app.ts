@@ -6,10 +6,12 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { map } from 'rxjs';
 import { ExerciseDetail } from './components/exercise-detail/exercise-detail';
 import { ExerciseList } from './components/exercise-list/exercise-list';
+import { StackTable } from './components/stack-table/stack-table';
 import type { Exercise, ExerciseGroup } from './models/exercise';
 import { ExerciseService } from './services/exercise.service';
 
@@ -23,7 +25,9 @@ const THEME_STORAGE_KEY = 'theme';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
+    MatTabsModule,
     ExerciseList,
+    StackTable,
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss',

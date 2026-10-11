@@ -50,11 +50,18 @@
       </button>
     </mat-toolbar>
 
-    <app-exercise-list
-      [data]="service.data()"
-      [loading]="service.loading()"
-      [error]="service.error()"
-      (openExercise)="openExercise($event)"
-    />
+    <mat-tab-group class="tabs">
+      <mat-tab label="Exercises">
+        <app-exercise-list
+          [data]="service.data()"
+          [loading]="service.loading()"
+          [error]="service.error()"
+          (openExercise)="openExercise($event)"
+        />
+      </mat-tab>
+      <mat-tab label="Stacks">
+        <app-stack-table />
+      </mat-tab>
+    </mat-tab-group>
   </mat-sidenav-content>
 </mat-sidenav-container>
