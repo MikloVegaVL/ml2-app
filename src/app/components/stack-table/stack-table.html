@@ -1,6 +1,17 @@
-<h2 class="title">8-Stack Training Plan</h2>
+<div class="header">
+  <h2 class="title">8-Stack Training Plan</h2>
+  <button
+    mat-stroked-button
+    color="primary"
+    [disabled]="!service.data()"
+    (click)="generate()"
+  >
+    <mat-icon>shuffle</mat-icon>
+    Fill random
+  </button>
+</div>
 
-<table mat-table [dataSource]="rows" class="stack-table">
+<table mat-table [dataSource]="rows()" class="stack-table">
   <ng-container matColumnDef="stack">
     <th mat-header-cell *matHeaderCellDef class="stack-col">Stack</th>
     <td mat-cell *matCellDef="let row" class="stack-col">{{ row.stack }}</td>
@@ -8,22 +19,38 @@
 
   <ng-container matColumnDef="isolated">
     <th mat-header-cell *matHeaderCellDef>Isolated Floor Exercises</th>
-    <td mat-cell *matCellDef="let row">{{ row.isolated }}</td>
+    <td mat-cell *matCellDef="let row" class="cell">
+      @for (exercise of row.isolated; track exercise.id) {
+        <span class="cell-ex">{{ exercise.name }}</span>
+      }
+    </td>
   </ng-container>
 
   <ng-container matColumnDef="mobility">
     <th mat-header-cell *matHeaderCellDef>Mobility Floor Exercises</th>
-    <td mat-cell *matCellDef="let row">{{ row.mobility }}</td>
+    <td mat-cell *matCellDef="let row" class="cell">
+      @for (exercise of row.mobility; track exercise.id) {
+        <span class="cell-ex">{{ exercise.name }}</span>
+      }
+    </td>
   </ng-container>
 
   <ng-container matColumnDef="kneeling">
     <th mat-header-cell *matHeaderCellDef>Kneeling transitions</th>
-    <td mat-cell *matCellDef="let row">{{ row.kneeling }}</td>
+    <td mat-cell *matCellDef="let row" class="cell">
+      @for (exercise of row.kneeling; track exercise.id) {
+        <span class="cell-ex">{{ exercise.name }}</span>
+      }
+    </td>
   </ng-container>
 
   <ng-container matColumnDef="integrated">
     <th mat-header-cell *matHeaderCellDef>Integrated Standing Exercises</th>
-    <td mat-cell *matCellDef="let row">{{ row.integrated }}</td>
+    <td mat-cell *matCellDef="let row" class="cell">
+      @for (exercise of row.integrated; track exercise.id) {
+        <span class="cell-ex">{{ exercise.name }}</span>
+      }
+    </td>
   </ng-container>
 
   <tr mat-header-row *matHeaderRowDef="columns"></tr>

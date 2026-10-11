@@ -1,3 +1,5 @@
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
 import { StackTable } from './stack-table';
 
@@ -5,6 +7,7 @@ describe('StackTable', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [StackTable],
+      providers: [provideHttpClient(), provideHttpClientTesting()],
     }).compileComponents();
   });
 
@@ -26,5 +29,12 @@ describe('StackTable', () => {
     expect(headers[2].textContent?.trim()).toBe('Mobility Floor Exercises');
     expect(headers[3].textContent?.trim()).toBe('Kneeling transitions');
     expect(headers[4].textContent?.trim()).toBe('Integrated Standing Exercises');
+  });
+
+  it('should render a fill button', () => {
+    const fixture = TestBed.createComponent(StackTable);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('button')?.textContent).toContain('Fill random');
   });
 });

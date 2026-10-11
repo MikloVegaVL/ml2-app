@@ -5,8 +5,17 @@
   margin: 0 auto;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
 .title {
-  margin: 0 0 16px;
+  margin: 0;
   font-size: 28px;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -32,7 +41,7 @@ td.mat-mdc-cell,
 th.mat-mdc-header-cell {
   border-bottom-color: var(--mat-sys-outline-variant);
   padding: 12px 16px;
-  vertical-align: middle;
+  vertical-align: top;
   min-height: 48px;
 }
 
@@ -44,9 +53,18 @@ tr.mat-mdc-row:last-child td.mat-mdc-cell {
   width: 96px;
   text-align: center;
   font-variant-numeric: tabular-nums;
+  vertical-align: middle !important;
 }
 
 th.stack-col,
 td.stack-col {
   text-align: center;
+}
+
+.cell-ex {
+  display: block;
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 2px 0;
+  color: var(--mat-sys-on-surface);
 }
