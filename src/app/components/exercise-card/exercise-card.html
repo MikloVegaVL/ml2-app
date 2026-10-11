@@ -1,0 +1,31 @@
+<mat-card
+  class="exercise-card"
+  role="button"
+  tabindex="0"
+  (click)="open.emit(exercise())"
+  (keydown.enter)="open.emit(exercise())"
+  (keydown.space)="open.emit(exercise())"
+>
+  <mat-card-content class="card-body">
+    <img
+      class="thumb"
+      [src]="service.thumbnailUrl(exercise().thumbnail)"
+      [srcset]="service.thumbnailSrcset(exercise().thumbnail)"
+      [alt]="exercise().name"
+      loading="lazy"
+    />
+    <div class="info">
+      <div class="name">{{ exercise().name }}</div>
+      <div class="desc">{{ exercise().description }}</div>
+      @if (exercise().level) {
+        <span
+          class="level-badge"
+          [class.basic]="exercise().level === 'basic'"
+          [class.hooyah]="exercise().level === 'hooyah'"
+        >
+          {{ exercise().level }}
+        </span>
+      }
+    </div>
+  </mat-card-content>
+</mat-card>

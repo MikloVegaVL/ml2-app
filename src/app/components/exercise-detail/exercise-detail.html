@@ -1,0 +1,65 @@
+<div class="detail-header">
+  <img
+    class="hero"
+    [src]="service.thumbnailUrl(exercise.thumbnail)"
+    [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+    [alt]="exercise.name"
+  />
+  <div class="header-text">
+    <h2 mat-dialog-title class="title">{{ exercise.name }}</h2>
+    <div class="meta">
+      @if (exercise.level) {
+        <span
+          class="level-badge"
+          [class.basic]="exercise.level === 'basic'"
+          [class.hooyah]="exercise.level === 'hooyah'"
+        >
+          {{ exercise.level }}
+        </span>
+      }
+      @if (exercise.variant) {
+        <span class="variant">{{ exercise.variant }}</span>
+      }
+    </div>
+  </div>
+</div>
+
+<mat-dialog-content>
+  <p class="description">{{ exercise.description }}</p>
+
+  @if (exercise.functions.length) {
+    <h3 class="section-title">Purpose</h3>
+    <ul class="points">
+      @for (fn of exercise.functions; track fn) {
+        <li>{{ fn }}</li>
+      }
+    </ul>
+  }
+
+  @if (exercise.keyPoints.length) {
+    <h3 class="section-title">Key points</h3>
+    <ol class="points">
+      @for (point of exercise.keyPoints; track point) {
+        <li>{{ point }}</li>
+      }
+    </ol>
+  }
+
+  @if (exercise.hooyah?.length) {
+    <mat-divider></mat-divider>
+    <h3 class="section-title hooyah-title">Hooyah — harder progression</h3>
+    <ul class="points hooyah">
+      @for (hint of exercise.hooyah; track hint) {
+        <li>{{ hint }}</li>
+      }
+    </ul>
+  }
+
+  @if (exercise.sourcePages.length) {
+    <p class="pages">Source pages: {{ exercise.sourcePages.join(', ') }}</p>
+  }
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

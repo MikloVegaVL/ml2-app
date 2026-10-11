@@ -1,0 +1,59 @@
+.shell {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 280px;
+}
+
+.sidenav-inner {
+  padding: 8px 0;
+}
+
+.nav-category {
+  padding: 14px 16px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.nav-link {
+  .nav-thumb {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-right: 12px;
+    background: var(--mat-sys-surface-container);
+  }
+
+  .nav-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .nav-count {
+    margin-left: auto;
+    color: var(--mat-sys-on-surface-variant);
+    font-size: 12px;
+  }
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: 4px;
+}
+
+.brand {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

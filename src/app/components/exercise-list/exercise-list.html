@@ -1,0 +1,79 @@
+@if (loading()) {
+  <div class="state">
+    <mat-spinner diameter="40"></mat-spinner>
+    <p>Loading exercises…</p>
+  </div>
+} @else if (error()) {
+  <div class="state">
+    <mat-icon class="state-icon">error_outline</mat-icon>
+    <p>{{ error() }}</p>
+  </div>
+} @else {
+  <header class="page-header">
+    <div>
+      <h1>Exercise Library</h1>
+      <p class="subtitle">
+        {{ totalExercises() }} exercises · {{ totalGroups() }} groups
+        @if (excludedText()) {
+          · <span class="excluded">{{ excludedText() }} excluded</span>
+        }
+      </p>
+    </div>
+    <mat-form-field class="search" appearance="outline" subscriptSizing="dynamic">
+      <mat-icon matPrefix>search</mat-icon>
+      <input
+        matInput
+        type="search"
+        placeholder="Search exercises"
+        aria-label="Search exercises"
+        [value]="searchTerm()"
+        (input)="searchTerm.set($any($event.target).value)"
+      />
+      @if (searchTerm()) {
+        <button
+          matSuffix
+          mat-icon-button
+          aria-label="Clear search"
+          (click)="searchTerm.set('')"
+        >
+          <mat-icon>close</mat-icon>
+        </button>
+      }
+    </mat-form-field>
+  </header>
+
+  @for (category of view(); track category.id) {
+    <section class="category" [id]="'category-' + category.id">
+      <h2 class="category-title">{{ category.name }}</h2>
+      @if (category.description) {
+        <p class="category-desc">{{ category.description }}</p>
+      }
+
+      @for (group of category.groups; track group.id) {
+        <div class="group" [id]="'group-' + group.id">
+          <h3 class="group-title">
+            <img
+              class="group-thumb"
+              [src]="service.thumbnailUrl(group.thumbnail)"
+              [srcset]="service.thumbnailSrcset(group.thumbnail)"
+              [alt]="group.name"
+            />
+            <span class="group-name">{{ group.name }}</span>
+            <span class="group-count">{{ group.exercises.length }} exercises</span>
+          </h3>
+
+          <div class="grid">
+            @for (exercise of group.exercises; track exercise.id) {
+              <app-exercise-card [exercise]="exercise" (open)="openExercise.emit($event)" />
+            }
+          </div>
+        </div>
+      }
+    </section>
+  } @empty {
+    <div class="state">
+      <mat-icon class="state-icon">search_off</mat-icon>
+      <p>No exercises match “{{ searchTerm() }}”.</p>
+    </div>
+  }
+}

@@ -1,0 +1,60 @@
+<mat-sidenav-container class="shell">
+  <mat-sidenav
+    class="sidenav"
+    [mode]="isHandset() ? 'over' : 'side'"
+    [(opened)]="sidenavOpened"
+    [fixedInViewport]="true"
+    [autoFocus]="false"
+  >
+    <div class="sidenav-inner">
+      <mat-nav-list>
+        @if (service.data(); as data) {
+          @for (category of data.categories; track category.id) {
+            <div class="nav-category">{{ category.name }}</div>
+            @for (groupId of category.groupIds; track groupId) {
+              @if (groupById(groupId); as group) {
+                <a mat-list-item class="nav-link" (click)="scrollToGroup(group.id)">
+                  <img
+                    class="nav-thumb"
+                    [src]="service.thumbnailUrl(group.thumbnail)"
+                    [alt]="group.name"
+                  />
+                  <span class="nav-label">{{ group.name }}</span>
+                  <span class="nav-count">{{ group.exercises.length }}</span>
+                </a>
+              }
+            }
+          }
+        }
+      </mat-nav-list>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar class="toolbar">
+      <button
+        mat-icon-button
+        aria-label="Toggle navigation"
+        (click)="sidenavOpened.set(!sidenavOpened())"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="brand">ML 2.1</span>
+      <span class="spacer"></span>
+      <button
+        mat-icon-button
+        [attr.aria-label]="isDark() ? 'Switch to light mode' : 'Switch to dark mode'"
+        (click)="toggleTheme()"
+      >
+        <mat-icon>{{ isDark() ? 'light_mode' : 'dark_mode' }}</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <app-exercise-list
+      [data]="service.data()"
+      [loading]="service.loading()"
+      [error]="service.error()"
+      (openExercise)="openExercise($event)"
+    />
+  </mat-sidenav-content>
+</mat-sidenav-container>

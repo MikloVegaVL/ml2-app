@@ -1,0 +1,1543 @@
+{
+  "source": "Mark Lauren – ML 2.1 (Isolated Floor / Mobility Floor / Integrated Standing Exercises)",
+  "language": "en",
+  "excluded": [
+    "Single Kneeling Transitions"
+  ],
+  "thumbnailSize": {
+    "1x": 160,
+    "2x": 320
+  },
+  "categories": [
+    {
+      "id": "isolated-floor-exercises",
+      "name": "Isolated Floor Exercises",
+      "description": null,
+      "groupIds": [
+        "back-lying",
+        "front-lying"
+      ]
+    },
+    {
+      "id": "mobility-floor-exercises",
+      "name": "Mobility Floor Exercises",
+      "description": "Improve the user's orthopedically safe range of motion and dynamic display of transitional strength and flexibility.",
+      "groupIds": [
+        "inch-worm",
+        "spiderman",
+        "starfish",
+        "quad"
+      ]
+    },
+    {
+      "id": "integrated-standing-exercises",
+      "name": "Integrated Standing Exercises",
+      "description": null,
+      "groupIds": [
+        "squatting",
+        "lunging",
+        "bending",
+        "step-ups"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "back-lying",
+      "name": "Back Lying",
+      "category": "Isolated Floor Exercises",
+      "thumbnail": "thumbnails/group-back-lying.jpg",
+      "exercises": [
+        {
+          "id": "glute-hip-up-with-knees-bent",
+          "name": "Glute Hip Up with knees bent",
+          "baseName": "Glute Hip Up",
+          "variant": "with knees bent",
+          "level": "basic",
+          "order": 1,
+          "description": "Lengthen and strengthen the musculature needed for simultaneous hip flexion and extension.",
+          "functions": [
+            "Lengthen and strengthen the musculature needed for simultaneous hip flexion and extension"
+          ],
+          "keyPoints": [
+            "Fully extend through the hip of the lower leg",
+            "Actively pull the knee of the elevated leg towards your chest"
+          ],
+          "thumbnail": "thumbnails/glute-hip-up-with-knees-bent.jpg",
+          "sourcePages": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "glute-hip-up-with-legs-straight",
+          "name": "Glute Hip Up with legs straight",
+          "baseName": "Glute Hip Up",
+          "variant": "with legs straight",
+          "level": "hooyah",
+          "order": 2,
+          "description": "Pull the toes down and keep the elevated leg as straight as possible. Try to keep the elevated leg perfectly vertical. Avoid letting the elevated leg externally rotate. Fully extend.",
+          "functions": [],
+          "hooyah": [
+            "Pull the toes down and keep the elevated leg as straight as possible",
+            "Try to keep the elevated leg perfectly vertical",
+            "Avoid letting the elevated leg externally rotate",
+            "Fully extend"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/glute-hip-up-with-legs-straight.jpg",
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "up-over-with-knees-bent",
+          "name": "Up & Over with knees bent",
+          "baseName": "Up & Over",
+          "variant": "with knees bent",
+          "level": "basic",
+          "order": 3,
+          "description": "Improve simultaneous hip flexion and extension while preventing rotation of extended leg; Coordination of medial hip rotation and spinal rotation; Activation of anterior core.",
+          "functions": [
+            "Improve simultaneous hip flexion and extension while preventing rotation of extended leg",
+            "Coordination of medial hip rotation and spinal rotation",
+            "Activation of anterior core"
+          ],
+          "keyPoints": [
+            "Press the lower leg into the ground while preventing external rotation",
+            "Pull the elevated leg to your chest",
+            "Reach to the sky with your hand while keeping your head on the ground",
+            "Return to the starting position",
+            "Repeat step 1, except reach across the body to the opposite hand"
+          ],
+          "thumbnail": "thumbnails/up-over-with-knees-bent.jpg",
+          "sourcePages": [
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "id": "up-over-with-legs-straight",
+          "name": "Up & Over with legs straight",
+          "baseName": "Up & Over",
+          "variant": "with legs straight",
+          "level": "hooyah",
+          "order": 4,
+          "description": "By straightening the elevated leg, hip flexion / extension and control of rotation are made more difficult.",
+          "functions": [],
+          "hooyah": [
+            "By straightening the elevated leg, hip flexion / extension and control of rotation are made more difficult"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/up-over-with-legs-straight.jpg",
+          "sourcePages": [
+            14
+          ]
+        },
+        {
+          "id": "dead-bug-with-knees-bent",
+          "name": "Dead Bug with knees bent",
+          "baseName": "Dead Bug",
+          "variant": "with knees bent",
+          "level": "basic",
+          "order": 5,
+          "description": "Improve pelvic control during hip extension and flexion; Controlling rotation of extended leg during hip flexion and extension.",
+          "functions": [
+            "Improve pelvic control during hip extension and flexion",
+            "Controlling rotation of extended leg during hip flexion and extension"
+          ],
+          "keyPoints": [
+            "Tighten abdominals and pull naval towards spine",
+            "Prevent movement of the pelvis",
+            "Fully extend the lower leg while preventing external rotation",
+            "Actively pull the elevated leg to the chest"
+          ],
+          "thumbnail": "thumbnails/dead-bug-with-knees-bent.jpg",
+          "sourcePages": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "dead-bug-with-legs-straight",
+          "name": "Dead Bug with legs straight",
+          "baseName": "Dead Bug",
+          "variant": "with legs straight",
+          "level": "hooyah",
+          "order": 6,
+          "description": "Straighten the legs to increase flexibility of the hamstrings, calves, and soleus, and the difficulty of controlling rotation in the extended leg.",
+          "functions": [],
+          "hooyah": [
+            "Straighten the legs to increase flexibility of the hamstrings, calves, and soleus, and the difficulty of controlling rotation in the extended leg"
+          ],
+          "keyPoints": [
+            "Make yourself as long and straight as possible while keeping your lower back flat against the ground"
+          ],
+          "thumbnail": "thumbnails/dead-bug-with-legs-straight.jpg",
+          "sourcePages": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "windshield-wiper-with-knees-bent",
+          "name": "Windshield Wiper with knees bent",
+          "baseName": "Windshield Wiper",
+          "variant": "with knees bent",
+          "level": "basic",
+          "order": 7,
+          "description": "Strengthen and lengthen leg adductors; Improve control of spinal rotation.",
+          "functions": [
+            "Strengthen and lengthen leg adductors",
+            "Improve control of spinal rotation"
+          ],
+          "keyPoints": [
+            "Keep the thighs perpendicular to the body",
+            "Don’t rest the legs on the ground",
+            "Lower the left leg without moving the right leg",
+            "Lower the right leg to the left leg while keeping your shoulders on the ground",
+            "Reverse the exercise, and return to the starting position"
+          ],
+          "thumbnail": "thumbnails/windshield-wiper-with-knees-bent.jpg",
+          "sourcePages": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "windshield-wiper-with-legs-straight",
+          "name": "Windshield Wiper with legs straight",
+          "baseName": "Windshield Wiper",
+          "variant": "with legs straight",
+          "level": "hooyah",
+          "order": 8,
+          "description": "Increase the flexibility of your hamstrings, calves, and soleus by straightening your legs. Controlling spinal rotation is also made more difficult.",
+          "functions": [],
+          "hooyah": [
+            "Increase the flexibility of your hamstrings, calves, and soleus by straightening your legs",
+            "Controlling spinal rotation is also made more difficult"
+          ],
+          "keyPoints": [
+            "Keep the legs straight",
+            "Pull the toes towards your face",
+            "Avoid excessive external rotation of the legs",
+            "Keep the legs perpendicular to your body",
+            "From the starting position – lower left leg, lower right leg, raise right leg, raise left leg"
+          ],
+          "thumbnail": "thumbnails/windshield-wiper-with-legs-straight.jpg",
+          "sourcePages": [
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-lying",
+      "name": "Front Lying",
+      "category": "Isolated Floor Exercises",
+      "thumbnail": "thumbnails/group-front-lying.jpg",
+      "exercises": [
+        {
+          "id": "y-cuff-with-rotation",
+          "name": "Y Cuff with rotation",
+          "baseName": "Y Cuff",
+          "variant": "with rotation",
+          "level": "basic",
+          "order": 1,
+          "description": "Strengthen and activate musculature for posterior and anterior scapular tilting; Lengthen and strengthen range of motion for external rotation of shoulders and scapular retraction.",
+          "functions": [
+            "Strengthen and activate musculature for posterior and anterior scapular tilting",
+            "Lengthen and strengthen range of motion for external rotation of shoulders and scapular retraction"
+          ],
+          "keyPoints": [
+            "Pull the hands through the armpits",
+            "Extend the arms at your sides",
+            "Your elbows should be facing away from your body",
+            "Externally rotate your thumbs and squeeze your shoulder blades together until your thumbs are pointing up at the sky again"
+          ],
+          "thumbnail": "thumbnails/y-cuff-with-rotation.jpg",
+          "sourcePages": [
+            24,
+            25,
+            26,
+            27
+          ]
+        },
+        {
+          "id": "y-cuff-with-hands-behind-back",
+          "name": "Y Cuff with hands behind back",
+          "baseName": "Y Cuff",
+          "variant": "with hands behind back",
+          "level": "hooyah",
+          "order": 2,
+          "description": "Place the hands on the lower to mid back and the let the elbows hang.",
+          "functions": [],
+          "hooyah": [
+            "Place the hands on the lower to mid back and the let the elbows hang"
+          ],
+          "keyPoints": [
+            "Squeeze the shoulder blades together and lift the elbows as high as you can while keeping your midsection tight"
+          ],
+          "thumbnail": "thumbnails/y-cuff-with-hands-behind-back.jpg",
+          "sourcePages": [
+            28,
+            29
+          ]
+        },
+        {
+          "id": "hip-twist-from-plank",
+          "name": "Hip Twist from plank",
+          "baseName": "Hip Twist",
+          "variant": "from plank",
+          "level": "basic",
+          "order": 3,
+          "description": "Improve control of lumbar and thoracic spine rotation; Lengthen muscles opposing spinal rotation.",
+          "functions": [
+            "Improve control of lumbar and thoracic spine rotation",
+            "Lengthen muscles opposing spinal rotation"
+          ],
+          "keyPoints": [
+            "Rotate your heels to the left until they are resting on the ground",
+            "Don’t laterally shift the hips during rotation or allow your heels to fall to the ground",
+            "Rotate your heels to the right",
+            "Keep your arms straight",
+            "Push your body away from the ground so that the shoulder blades are flat against the upper back"
+          ],
+          "thumbnail": "thumbnails/hip-twist-from-plank.jpg",
+          "sourcePages": [
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "id": "hip-twist-from-pillar",
+          "name": "Hip Twist from pillar",
+          "baseName": "Hip Twist",
+          "variant": "from pillar",
+          "level": "hooyah",
+          "order": 4,
+          "description": "Perform the exercise from the pillar position to increase anterior core stability.",
+          "functions": [],
+          "hooyah": [
+            "Perform the exercise from the pillar position to increase anterior core stability"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/hip-twist-from-pillar.jpg",
+          "sourcePages": [
+            33
+          ]
+        },
+        {
+          "id": "twist-reach-with-hips-down",
+          "name": "Twist & Reach with hips down",
+          "baseName": "Twist & Reach",
+          "variant": "with hips down",
+          "level": "basic",
+          "order": 5,
+          "description": "Lengthen and strengthen musculature needed for thoracic rotation; Challenge the shoulders to rotate independently of the hips.",
+          "functions": [
+            "Lengthen and strengthen musculature needed for thoracic rotation",
+            "Challenge the shoulders to rotate independently of the hips"
+          ],
+          "keyPoints": [
+            "Maintain a straight line from your knees through your head",
+            "Push your bottom shoulder away from your head",
+            "Don’t let the hips move",
+            "Twist and reach as high as you can towards the sky"
+          ],
+          "thumbnail": "thumbnails/twist-reach-with-hips-down.jpg",
+          "sourcePages": [
+            34,
+            35
+          ]
+        },
+        {
+          "id": "twist-reach-with-hips-up",
+          "name": "Twist & Reach with hips up",
+          "baseName": "Twist & Reach",
+          "variant": "with hips up",
+          "level": "hooyah",
+          "order": 6,
+          "description": "Bend at the hips. Fully rotate, turning your left arm towards the sky, while pushing through the lower arm.",
+          "functions": [],
+          "hooyah": [
+            "Bend at the hips",
+            "Fully rotate, turning your left arm towards the sky, while pushing through the lower arm"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/twist-reach-with-hips-up.jpg",
+          "sourcePages": [
+            36
+          ]
+        },
+        {
+          "id": "moose-antler-from-lying-position",
+          "name": "Moose Antler from lying position",
+          "baseName": "Moose Antler",
+          "variant": "from lying position",
+          "level": "basic",
+          "order": 7,
+          "description": "Forward reaching arm – lengthen musculature opposing shoulder flexion past the head; Bent arm – strengthen musculature needed for scapular retraction while lengthening musculature opposing it.",
+          "functions": [
+            "Forward reaching arm – lengthen musculature opposing shoulder flexion past the head",
+            "Bent arm – strengthen musculature needed for scapular retraction while lengthening musculature opposing it"
+          ],
+          "keyPoints": [
+            "Crawl the right hand as far forward as possible",
+            "Press the right arm into the ground",
+            "Place the right thumb on the back of the head",
+            "While pressing the right arm into the ground, lift the left elbow as high as possible"
+          ],
+          "thumbnail": "thumbnails/moose-antler-from-lying-position.jpg",
+          "sourcePages": [
+            37,
+            38
+          ]
+        },
+        {
+          "id": "moose-antler-from-kneeling-position",
+          "name": "Moose Antler from kneeling position",
+          "baseName": "Moose Antler",
+          "variant": "from kneeling position",
+          "level": "hooyah",
+          "order": 8,
+          "description": "Lengthen the entire chain of musculature from shoulders to ankles by performing this exercise from “child’s pose” with the hips down. After crawling your right hand as far forward as possible, press your right arm into the ground, while ensuring your hips are as low as possible.",
+          "functions": [],
+          "hooyah": [
+            "Lengthen the entire chain of musculature from shoulders to ankles by performing this exercise from “child’s pose” with the hips down",
+            "After crawling your right hand as far forward as possible, press your right arm into the ground, while ensuring your hips are as low as possible"
+          ],
+          "keyPoints": [
+            "Actively press the right arm into the ground, while keeping the hips down, and lift the left elbow as high as possible"
+          ],
+          "thumbnail": "thumbnails/moose-antler-from-kneeling-position.jpg",
+          "sourcePages": [
+            39,
+            40
+          ]
+        },
+        {
+          "id": "side-leg-lift-from-lying-position",
+          "name": "Side Leg Lift from lying position",
+          "baseName": "Side Leg Lift",
+          "variant": "from lying position",
+          "level": "basic",
+          "order": 9,
+          "description": "Leg ABduction while maintaining parallel feet.",
+          "functions": [
+            "Leg ABduction while maintaining parallel feet"
+          ],
+          "keyPoints": [
+            "Lay on your side without tilting to your back or front side",
+            "Keep your legs straight and feet parallel",
+            "Elevated your leg as high as possible"
+          ],
+          "thumbnail": "thumbnails/side-leg-lift-from-lying-position.jpg",
+          "sourcePages": [
+            41,
+            42
+          ]
+        },
+        {
+          "id": "side-leg-lift-from-plank",
+          "name": "Side Leg Lift from plank",
+          "baseName": "Side Leg Lift",
+          "variant": "from plank",
+          "level": "hooyah",
+          "order": 10,
+          "description": "Perform this exercise from a side pillar position. Keep your feet parallel. Push your hips forward to create a straight line from head to heels.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise from a side pillar position",
+            "Keep your feet parallel",
+            "Push your hips forward to create a straight line from head to heels"
+          ],
+          "keyPoints": [
+            "Elevate the top leg as high as possible while keeping the feet parallel"
+          ],
+          "thumbnail": "thumbnails/side-leg-lift-from-plank.jpg",
+          "sourcePages": [
+            43,
+            44
+          ]
+        },
+        {
+          "id": "hip-drop-on-elbows",
+          "name": "Hip Drop on elbows",
+          "baseName": "Hip Drop",
+          "variant": "on elbows",
+          "level": "basic",
+          "order": 11,
+          "description": "Lateral flexion and extension.",
+          "functions": [
+            "Lateral flexion and extension"
+          ],
+          "keyPoints": [
+            "Support yourself using the top arm, if needed",
+            "Lower your hips to the ground, and then return to the starting position",
+            "Keep your hips from drifting forwards or backwards"
+          ],
+          "thumbnail": "thumbnails/hip-drop-on-elbows.jpg",
+          "sourcePages": [
+            45,
+            46
+          ]
+        },
+        {
+          "id": "hip-drop-on-hands",
+          "name": "Hip Drop on hands",
+          "baseName": "Hip Drop",
+          "variant": "on hands",
+          "level": "hooyah",
+          "order": 12,
+          "description": "Perform this exercise from your hands to increase the range of motion.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise from your hands to increase the range of motion"
+          ],
+          "keyPoints": [
+            "Lower your hips as far as possible",
+            "Keep your supporting arm straight",
+            "Keep your midsection tight and naval drawn in towards your spine"
+          ],
+          "thumbnail": "thumbnails/hip-drop-on-hands.jpg",
+          "sourcePages": [
+            47,
+            48
+          ]
+        },
+        {
+          "id": "moon-walk-supported-on-elbows",
+          "name": "Moon Walk supported on elbows",
+          "baseName": "Moon Walk",
+          "variant": "supported on elbows",
+          "level": "basic",
+          "order": 13,
+          "description": "Adduction and Abduction of legs; Control lateral flexion of spine.",
+          "functions": [
+            "Adduction and Abduction of legs",
+            "Control lateral flexion of spine"
+          ],
+          "keyPoints": [
+            "Support yourself with the top arm, if needed",
+            "Keep your body as straight as possible",
+            "Place the left foot in front of the right foot",
+            "Place the right foot in front of the left foot",
+            "After taking the needed steps forward, reverse the exercise to return to the starting position"
+          ],
+          "thumbnail": "thumbnails/moon-walk-supported-on-elbows.jpg",
+          "sourcePages": [
+            49,
+            50,
+            51
+          ]
+        },
+        {
+          "id": "moon-walk-supported-on-hands",
+          "name": "Moon Walk supported on hands",
+          "baseName": "Moon Walk",
+          "variant": "supported on hands",
+          "level": "hooyah",
+          "order": 14,
+          "description": "Perform this exercise while supported on a single hand, if support from the top arm is not needed.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise while supported on a single hand, if support from the top arm is not needed"
+          ],
+          "keyPoints": [
+            "Pivot around your hand",
+            "Keep your body straight",
+            "After completing your steps forward, repeat them going backwards to return to the starting position"
+          ],
+          "thumbnail": "thumbnails/moon-walk-supported-on-hands.jpg",
+          "sourcePages": [
+            52,
+            53
+          ]
+        },
+        {
+          "id": "side-crunch-with-legs-on-ground",
+          "name": "Side Crunch with legs on ground",
+          "baseName": "Side Crunch",
+          "variant": "with legs on ground",
+          "level": "basic",
+          "order": 15,
+          "description": "Lateral Flexion.",
+          "functions": [
+            "Lateral Flexion"
+          ],
+          "keyPoints": [
+            "Don’t let your body drift to the front",
+            "Your hips should be in-line with the rest of your body",
+            "Raise your elbow straight up towards the sky",
+            "Keep this is a short movement"
+          ],
+          "thumbnail": "thumbnails/side-crunch-with-legs-on-ground.jpg",
+          "sourcePages": [
+            54,
+            55
+          ]
+        },
+        {
+          "id": "side-crunch-with-legs-elevated",
+          "name": "Side Crunch with legs elevated",
+          "baseName": "Side Crunch",
+          "variant": "with legs elevated",
+          "level": "hooyah",
+          "order": 16,
+          "description": "Perform this exercise with your legs elevated to include leg adduction and abduction, while further challenging lateral flexion.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise with your legs elevated to include leg adduction and abduction, while further challenging lateral flexion"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/side-crunch-with-legs-elevated.jpg",
+          "sourcePages": [
+            56
+          ]
+        },
+        {
+          "id": "pointer-straight",
+          "name": "Pointer straight",
+          "baseName": "Pointer",
+          "variant": "straight",
+          "level": "basic",
+          "order": 17,
+          "description": "Spinal flexion and extension; Controlling rotation of the extended leg.",
+          "functions": [
+            "Spinal flexion and extension",
+            "Controlling rotation of the extended leg"
+          ],
+          "keyPoints": [
+            "Bring your left elbow to your right knee",
+            "Raise the left arm, and reach straight ahead",
+            "Extend the right leg, and push through your right heel, locking out the right knee",
+            "Keep the knee and toes of the right foot pointing straight down at the ground",
+            "Keep your abdominals tight and belly button sucked in to avoid overextending through the lower back"
+          ],
+          "thumbnail": "thumbnails/pointer-straight.jpg",
+          "sourcePages": [
+            57,
+            58,
+            59
+          ]
+        },
+        {
+          "id": "pointer-arched",
+          "name": "Pointer arched",
+          "baseName": "Pointer",
+          "variant": "arched",
+          "level": "hooyah",
+          "order": 18,
+          "description": "After touching your left elbow to your right knee, raise your left arm and right leg as high as possible without swinging or using momentum. Keep your midsection thight to prevent over extension through the lower back.",
+          "functions": [],
+          "hooyah": [
+            "After touching your left elbow to your right knee, raise your left arm and right leg as high as possible without swinging or using momentum",
+            "Keep your midsection thight to prevent over extension through the lower back"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/pointer-arched.jpg",
+          "sourcePages": [
+            60
+          ]
+        },
+        {
+          "id": "straight-wide-leg-from-crawling-position",
+          "name": "Straight Wide Leg from crawling position",
+          "baseName": "Straight Wide Leg",
+          "variant": "from crawling position",
+          "level": "basic",
+          "order": 19,
+          "description": "Maintaining parallel feet during extension and Abduction of the elevated leg.",
+          "functions": [
+            "Maintaining parallel feet during extension and Abduction of the elevated leg"
+          ],
+          "keyPoints": [
+            "Fully extend and straighten the elevated leg",
+            "Internally rotate the elevated leg so that the toes point down at the ground",
+            "Bring the elevated leg out to the side while keeping the knees and toes pointing straight down at the ground",
+            "Maintain a straight spine and level hips while abducting the elevated leg",
+            "This is a very short movement when done correctly"
+          ],
+          "thumbnail": "thumbnails/straight-wide-leg-from-crawling-position.jpg",
+          "sourcePages": [
+            61,
+            62
+          ]
+        },
+        {
+          "id": "straight-wide-leg-from-plank",
+          "name": "Straight Wide Leg from plank",
+          "baseName": "Straight Wide Leg",
+          "variant": "from plank",
+          "level": "hooyah",
+          "order": 20,
+          "description": "Perform this exercise from a planking position to additionally challenge anterior core stability.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise from a planking position to additionally challenge anterior core stability"
+          ],
+          "keyPoints": [
+            "Keep the elevated leg as straight as possible with the knees and toes pointing down at the ground",
+            "Maintain a straight spine from head to tailbone"
+          ],
+          "thumbnail": "thumbnails/straight-wide-leg-from-plank.jpg",
+          "sourcePages": [
+            63,
+            64
+          ]
+        },
+        {
+          "id": "dirty-dog-with-legs-bent",
+          "name": "Dirty Dog with legs bent",
+          "baseName": "Dirty Dog",
+          "variant": "with legs bent",
+          "level": "basic",
+          "order": 21,
+          "description": "External rotation of the hips.",
+          "functions": [
+            "External rotation of the hips"
+          ],
+          "keyPoints": [
+            "Elevate the left knee as high as possible without swinging the leg"
+          ],
+          "thumbnail": "thumbnails/dirty-dog-with-legs-bent.jpg",
+          "sourcePages": [
+            65,
+            66
+          ]
+        },
+        {
+          "id": "dirty-dog-with-kick-out",
+          "name": "Dirty Dog with kick-out",
+          "baseName": "Dirty Dog",
+          "variant": "with kick-out",
+          "level": "hooyah",
+          "order": 22,
+          "description": "To further strengthen the external hip rotators and lengthen the adductors, straighten the elevated leg at the top of the movement.",
+          "functions": [],
+          "hooyah": [
+            "To further strengthen the external hip rotators and lengthen the adductors, straighten the elevated leg at the top of the movement"
+          ],
+          "keyPoints": [
+            "Keep your spine as straight and neutral as possible",
+            "Elevate your leg as high as possible",
+            "While keeping your knee at the same elevation, straighten your leg with your toes slightly pointing down at the ground"
+          ],
+          "thumbnail": "thumbnails/dirty-dog-with-kick-out.jpg",
+          "sourcePages": [
+            67,
+            68,
+            69
+          ]
+        },
+        {
+          "id": "hip-circle-with-legs-bent",
+          "name": "Hip Circle with legs bent",
+          "baseName": "Hip Circle",
+          "variant": "with legs bent",
+          "level": "basic",
+          "order": 23,
+          "description": "Hip Circumduction.",
+          "functions": [
+            "Hip Circumduction"
+          ],
+          "keyPoints": [
+            "Raise your knee to the rear",
+            "And make as big of a circle as possible with the elevated knee",
+            "While making circles with your knee, keep your spine as long and neutral as possible",
+            "After making a complete circle, change directions to complete one repetition"
+          ],
+          "thumbnail": "thumbnails/hip-circle-with-legs-bent.jpg",
+          "sourcePages": [
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "id": "hip-circle-with-legs-straight",
+          "name": "Hip Circle with legs straight",
+          "baseName": "Hip Circle",
+          "variant": "with legs straight",
+          "level": "hooyah",
+          "order": 24,
+          "description": "Perform this exercise with the elevated leg straight to further challenge your strength and flexibility.",
+          "functions": [],
+          "hooyah": [
+            "Perform this exercise with the elevated leg straight to further challenge your strength and flexibility"
+          ],
+          "keyPoints": [],
+          "thumbnail": "thumbnails/hip-circle-with-legs-straight.jpg",
+          "sourcePages": [
+            74
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inch-worm",
+      "name": "Inch Worm",
+      "category": "Mobility Floor Exercises",
+      "thumbnail": "thumbnails/group-inch-worm.jpg",
+      "exercises": [
+        {
+          "id": "bloomer",
+          "name": "Bloomer",
+          "baseName": "Bloomer",
+          "order": 1,
+          "description": "Start in a push-up position with a long neutral spine, feet parallel, and arms shoulder width apart. While keeping your legs straight, walk your hands back towards your feet.",
+          "functions": [],
+          "keyPoints": [
+            "Start in a push-up position with a long neutral spine, feet parallel, and arms shoulder width apart",
+            "While keeping your legs straight, walk your hands back towards your feet",
+            "Push your weight straight back, and avoid lateral swaying of the hips",
+            "With your legs straight, hang from your hips with a relaxed spine",
+            "Roll your spine up, vertebrae by vertebrae, until you’re in a fully upright position",
+            "After standing erect, perform a big arm swing to the streamline position, and make yourself as tall as possible",
+            "Reverse the motion to return to the starting position"
+          ],
+          "thumbnail": "thumbnails/bloomer.jpg",
+          "sourcePages": [
+            77,
+            78,
+            79,
+            80,
+            81
+          ]
+        },
+        {
+          "id": "deep-squat",
+          "name": "Deep Squat",
+          "baseName": "Deep Squat",
+          "order": 2,
+          "description": "Begin in the Inch Worm starting position. Walk your hands back towards your feet while bending your knees.",
+          "functions": [],
+          "keyPoints": [
+            "Begin in the Inch Worm starting position",
+            "Walk your hands back towards your feet while bending your knees",
+            "Keep your hips low and prevent swaying side to side",
+            "Maintain parallel feet",
+            "While keeping your hips low, walk your hips back until you can plant your heels",
+            "Extend your arms to the front, lift your chest, and stand up straight with our knees and toes pointing straight ahead",
+            "Reverse the motion by pushing your hips back and down into a deep squat with your feet parallel and knees pointing straight ahead",
+            "Once you can’t go any deeper, roll over the balls of your feet, and place your hands on the ground to the push-up position"
+          ],
+          "thumbnail": "thumbnails/deep-squat.jpg",
+          "sourcePages": [
+            82,
+            83,
+            84,
+            85
+          ]
+        },
+        {
+          "id": "vertical-twist",
+          "name": "Vertical Twist",
+          "baseName": "Vertical Twist",
+          "order": 3,
+          "description": "Start in the Inch-Worm starting position. Walk your right leg back until your left knee is over your left ankle.",
+          "functions": [],
+          "keyPoints": [
+            "Start in the Inch-Worm starting position",
+            "Walk your right leg back until your left knee is over your left ankle",
+            "Perform a hip hinge and lift your arms to the streamline position, while keeping your trailing knee close to the ground",
+            "Keep your abdominals rock hard to avoid arching through the back",
+            "Twist to the left by pulling your left shoulder blade back",
+            "Twist to the right by pulling your right shoulder blade back"
+          ],
+          "thumbnail": "thumbnails/vertical-twist.jpg",
+          "sourcePages": [
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        {
+          "id": "kneeling-switch",
+          "name": "Kneeling Switch",
+          "baseName": "Kneeling Switch",
+          "order": 4,
+          "description": "Get in the Inch Worm starting position. From the push-up position, walk your right leg back until you can get into a single kneeling position with your left leg forward.",
+          "functions": [],
+          "keyPoints": [
+            "Get in the Inch Worm starting position",
+            "From the push-up position, walk your right leg back until you can get into a single kneeling position with your left leg forward",
+            "Your lead foot should be about one foot length in front of the lowered knee",
+            "Shift your weight onto your lead foot, and push your hip back slightly",
+            "Maintain a long, neutral spine with your arms extended to the front",
+            "Without moving your hips or upper body, place your trailing foot next to your lead foot",
+            "Stand up straight, and make sure your feet are parallel",
+            "Reverse the motion to return to the starting position"
+          ],
+          "thumbnail": "thumbnails/kneeling-switch.jpg",
+          "sourcePages": [
+            91,
+            92,
+            93,
+            94,
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spiderman",
+      "name": "Spiderman",
+      "category": "Mobility Floor Exercises",
+      "thumbnail": "thumbnails/group-spiderman.jpg",
+      "exercises": [
+        {
+          "id": "hip-swirl",
+          "name": "Hip Swirl",
+          "baseName": "Hip Swirl",
+          "order": 1,
+          "description": "From the Spiderman starting position, make horizontal circles with your hips. Make a circle in one direction, and then make a circle in the opposite direction to complete one repetition.",
+          "functions": [],
+          "keyPoints": [
+            "From the Spiderman starting position, make horizontal circles with your hips",
+            "Make a circle in one direction, and then make a circle in the opposite direction to complete one repetition"
+          ],
+          "thumbnail": "thumbnails/hip-swirl.jpg",
+          "sourcePages": [
+            97
+          ]
+        },
+        {
+          "id": "arm-circle",
+          "name": "Arm Circle",
+          "baseName": "Arm Circle",
+          "order": 2,
+          "description": "From the Spiderman starting position, reach your right arm straight past your head, and make a large circle in the sagittal plane. Keep your left knee from drifting out to the side.",
+          "functions": [],
+          "keyPoints": [
+            "From the Spiderman starting position, reach your right arm straight past your head, and make a large circle in the sagittal plane",
+            "Keep your left knee from drifting out to the side",
+            "Make the circle as big as possible",
+            "Keep your midsection tight",
+            "Place the knuckle of your index finger in your lower back, and pull your left shoulder blade back while looking up at the ceiling"
+          ],
+          "thumbnail": "thumbnails/arm-circle.jpg",
+          "sourcePages": [
+            98,
+            99,
+            100
+          ]
+        },
+        {
+          "id": "a-frame",
+          "name": "A-Frame",
+          "baseName": "A-Frame",
+          "order": 3,
+          "description": "From the Spiderman starting position, while keeping your hands on the ground, straighten the left leg, and pull the toes of the left foot up. Lower your elbow to the ground.",
+          "functions": [],
+          "keyPoints": [
+            "From the Spiderman starting position, while keeping your hands on the ground, straighten the left leg, and pull the toes of the left foot up",
+            "Lower your elbow to the ground",
+            "Keep your spine as long as possible",
+            "Keep your left knee pointing straight ahead"
+          ],
+          "thumbnail": "thumbnails/a-frame.jpg",
+          "sourcePages": [
+            101,
+            102
+          ]
+        },
+        {
+          "id": "saxon-tilt",
+          "name": "Saxon Tilt",
+          "baseName": "Saxon Tilt",
+          "order": 4,
+          "description": "From the Spiderman starting position, hip hinge to the bottom of a lunging position with your hands at the streamline position. Keep your midsection tight, and keep your ribs from showing.",
+          "functions": [],
+          "keyPoints": [
+            "From the Spiderman starting position, hip hinge to the bottom of a lunging position with your hands at the streamline position",
+            "Keep your midsection tight, and keep your ribs from showing",
+            "While keeping your right knee pointing straight down at the ground and your arms straight, bend to the side of the forward leg",
+            "Keep your midsection tight",
+            "Reverse the motion and bend to the opposite side of the forward leg",
+            "Keep your elbows straight, head in-line with your spine, and abdominals tight"
+          ],
+          "thumbnail": "thumbnails/saxon-tilt.jpg",
+          "sourcePages": [
+            103,
+            104,
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starfish",
+      "name": "Starfish",
+      "category": "Mobility Floor Exercises",
+      "thumbnail": "thumbnails/group-starfish.jpg",
+      "exercises": [
+        {
+          "id": "starfish-twist",
+          "name": "Starfish Twist",
+          "baseName": "Starfish Twist",
+          "order": 1,
+          "description": "Get into the Starfish starting position. While keeping your left arm reaching up towards the sky, turn your hips towards the ground as far as possible.",
+          "functions": [],
+          "keyPoints": [
+            "Get into the Starfish starting position",
+            "While keeping your left arm reaching up towards the sky, turn your hips towards the ground as far as possible",
+            "Turn the hips independently of the shoulders",
+            "After your hips are fully turned towards the ground, place your left hand on the ground so that your are in a good starting position for a push-up"
+          ],
+          "thumbnail": "thumbnails/starfish-twist.jpg",
+          "sourcePages": [
+            107,
+            108,
+            109
+          ]
+        },
+        {
+          "id": "starfish-hip-drop",
+          "name": "Starfish Hip Drop",
+          "baseName": "Starfish Hip Drop",
+          "order": 2,
+          "description": "Begin in the Starfish position with your top leg in front of the bottom leg. While keeping the supporting arm straight and the top arm pointing straight up at the sky, lower your hips as far to the ground as possible.",
+          "functions": [],
+          "keyPoints": [
+            "Begin in the Starfish position with your top leg in front of the bottom leg",
+            "While keeping the supporting arm straight and the top arm pointing straight up at the sky, lower your hips as far to the ground as possible",
+            "After lowering the hips, return to the Starfish position",
+            "Rotate the hips without changing the position of your top arm",
+            "After rotating the hips fully, get into the starting position of a push-up"
+          ],
+          "thumbnail": "thumbnails/starfish-hip-drop.jpg",
+          "sourcePages": [
+            110,
+            111,
+            112,
+            113
+          ]
+        },
+        {
+          "id": "starfish-push-up",
+          "name": "Starfish Push-Up",
+          "baseName": "Starfish Push-Up",
+          "order": 3,
+          "description": "Get into the Starfish starting position. Rotate the hips.",
+          "functions": [],
+          "keyPoints": [
+            "Get into the Starfish starting position",
+            "Rotate the hips",
+            "After rotating the hips, drop down to the bottom of a push-up position",
+            "Push yourself off the ground, and return to the starting position of a push-up",
+            "Keep your midsection tight and stable as you push yourself up from the ground",
+            "If a regular push-up is too difficult, keep your knees on the ground as you push yourself up"
+          ],
+          "thumbnail": "thumbnails/starfish-push-up.jpg",
+          "sourcePages": [
+            114,
+            115,
+            116,
+            117
+          ]
+        },
+        {
+          "id": "starfish-dive-bomber",
+          "name": "Starfish Dive Bomber",
+          "baseName": "Starfish Dive Bomber",
+          "order": 4,
+          "description": "From the starfish position, twist your hips towards the ground. Rotate your hips as far as possible without moving your top arm.",
+          "functions": [],
+          "keyPoints": [
+            "From the starfish position, twist your hips towards the ground",
+            "Rotate your hips as far as possible without moving your top arm",
+            "After rotating fully, drop down to the bottom of a push-up position",
+            "While keeping your knees on the ground, straighten your arms",
+            "Let yourself arch through your back",
+            "Pull your shoulders back and externally rotate the arms, creating a broad chest",
+            "Lightly pull the chin back, so that your head is in line with the rest of your spine",
+            "Lower your chest towards the ground, and at the same time, push your hips up into the air",
+            "In this position, your shoulders should roll forward into an anterior scapular tilt"
+          ],
+          "thumbnail": "thumbnails/starfish-dive-bomber.jpg",
+          "sourcePages": [
+            118,
+            119,
+            120,
+            121,
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quad",
+      "name": "Quad",
+      "category": "Mobility Floor Exercises",
+      "thumbnail": "thumbnails/group-quad.jpg",
+      "exercises": [
+        {
+          "id": "kickout",
+          "name": "Kickout",
+          "baseName": "Kickout",
+          "order": 1,
+          "description": "From the quadruped start position, rotate towards your right side, and kick your left leg straight out with your toes pointing up towards the ceiling. Plant the heel of the supporting foot on the ground.",
+          "functions": [],
+          "keyPoints": [
+            "From the quadruped start position, rotate towards your right side, and kick your left leg straight out with your toes pointing up towards the ceiling",
+            "Plant the heel of the supporting foot on the ground",
+            "Maintain a long neutral spine",
+            "Pull the shoulders back",
+            "After performing the kickout, return to the starting position"
+          ],
+          "thumbnail": "thumbnails/kickout.jpg",
+          "sourcePages": [
+            124
+          ]
+        },
+        {
+          "id": "high-kick",
+          "name": "High Kick",
+          "baseName": "High Kick",
+          "order": 2,
+          "description": "After performing a Kickout, kick your left leg straight up into the air, while pushing your hips up and back. Fully straighten the supporting leg.",
+          "functions": [],
+          "keyPoints": [
+            "After performing a Kickout, kick your left leg straight up into the air, while pushing your hips up and back",
+            "Fully straighten the supporting leg",
+            "Push your chest down towards your feet",
+            "Return to the starting position"
+          ],
+          "thumbnail": "thumbnails/high-kick.jpg",
+          "sourcePages": [
+            125
+          ]
+        },
+        {
+          "id": "side-kick",
+          "name": "Side Kick",
+          "baseName": "Side Kick",
+          "order": 3,
+          "description": "After performing a Kickout and a High Kick, bring your left foot as far over to the right side of your body as possible without rotating on your supporting foot. Keep your hips high and the supporting leg straight.",
+          "functions": [],
+          "keyPoints": [
+            "After performing a Kickout and a High Kick, bring your left foot as far over to the right side of your body as possible without rotating on your supporting foot",
+            "Keep your hips high and the supporting leg straight"
+          ],
+          "thumbnail": "thumbnails/side-kick.jpg",
+          "sourcePages": [
+            126
+          ]
+        },
+        {
+          "id": "table-top",
+          "name": "Table Top",
+          "baseName": "Table Top",
+          "order": 4,
+          "description": "After performing a Side Kick, rotate on the supporting foot, while keeping your hips up, and plant your left foot on the ground. Try to arrive with your feet shoulder width apart and parallel.",
+          "functions": [],
+          "keyPoints": [
+            "After performing a Side Kick, rotate on the supporting foot, while keeping your hips up, and plant your left foot on the ground",
+            "Try to arrive with your feet shoulder width apart and parallel",
+            "Extend through your hips",
+            "Point your right arm straight up at the ceiling",
+            "Reverse the motion to return to the starting position and complete one full repetition"
+          ],
+          "thumbnail": "thumbnails/table-top.jpg",
+          "sourcePages": [
+            127
+          ]
+        }
+      ]
+    },
+    {
+      "id": "squatting",
+      "name": "Squatting",
+      "category": "Integrated Standing Exercises",
+      "thumbnail": "thumbnails/group-squatting.jpg",
+      "exercises": [
+        {
+          "id": "narrow-squat",
+          "name": "Narrow Squat",
+          "baseName": "Narrow Squat",
+          "order": 1,
+          "description": "Vertical movement in the sagittal plane of motion, with a hip width stance, challenging ankle mobility and postural control in the bottom position.",
+          "functions": [
+            "Vertical movement in the sagittal plane of motion, with a hip width stance, challenging ankle mobility and postural control in the bottom position"
+          ],
+          "keyPoints": [
+            "Push the hips straight back and then down while keeping your feet parallel and knees pointing straight ahead",
+            "Keep your chest elevated and midsection tight",
+            "Sink your hips down as far as possible while maintaining the described alignment"
+          ],
+          "thumbnail": "thumbnails/narrow-squat.jpg",
+          "sourcePages": [
+            129,
+            130
+          ]
+        },
+        {
+          "id": "wide-squat",
+          "name": "Wide Squat",
+          "baseName": "Wide Squat",
+          "order": 2,
+          "description": "Vertical movement in the sagittal plane of motion, with a slightly wider than shoulder width stance, challenging hip mobility and postural control in the bottom position.",
+          "functions": [
+            "Vertical movement in the sagittal plane of motion, with a slightly wider than shoulder width stance, challenging hip mobility and postural control in the bottom position"
+          ],
+          "keyPoints": [
+            "With your feet slightly wider than shoulder width apart and parallel, push your hip back and down while keeping your knees pointing straight ahead",
+            "Keep your chest upright and your midsection tight",
+            "Sink your hips down as far as possible"
+          ],
+          "thumbnail": "thumbnails/wide-squat.jpg",
+          "sourcePages": [
+            131,
+            132
+          ]
+        },
+        {
+          "id": "staggered-squat",
+          "name": "Staggered Squat",
+          "baseName": "Staggered Squat",
+          "order": 3,
+          "description": "Challenge the flexibility of the rear ankle and lateral stability of the hips while squatting.",
+          "functions": [
+            "Challenge the flexibility of the rear ankle and lateral stability of the hips while squatting"
+          ],
+          "keyPoints": [
+            "Place your left foot a half to a full foot length in front of the right foot",
+            "Keep your feet parallel and knees pointing straight ahead",
+            "Push your hips straight back, and sink into a squat with your chest up and midsection tight",
+            "Avoid letting the hips or knee of the rear foot drift laterally"
+          ],
+          "thumbnail": "thumbnails/staggered-squat.jpg",
+          "sourcePages": [
+            133,
+            134
+          ]
+        },
+        {
+          "id": "lateral-squat",
+          "name": "Lateral Squat",
+          "baseName": "Lateral Squat",
+          "order": 4,
+          "description": "Challenge lateral stability and control of rotation during movement in the coronal plane.",
+          "functions": [
+            "Challenge lateral stability and control of rotation during movement in the coronal plane"
+          ],
+          "keyPoints": [
+            "Take a step to the left with your left leg",
+            "Keep your feet parallel",
+            "While keeping the right leg straight, bend the left leg, and push your hips straight back",
+            "Extend through the left hip, and draw the right leg to the left leg while maintaining parallel feet",
+            "Focus on preventing lateral drift of the left knee. It should point straight ahead throughout the exercise",
+            "Your upper body should face straight ahead the entire time",
+            "After arriving in an upright standing position, repeat the exercise going to the right to complete the second repetition"
+          ],
+          "thumbnail": "thumbnails/lateral-squat.jpg",
+          "sourcePages": [
+            135,
+            136,
+            137,
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunging",
+      "name": "Lunging",
+      "category": "Integrated Standing Exercises",
+      "thumbnail": "thumbnails/group-lunging.jpg",
+      "exercises": [
+        {
+          "id": "stepping-lunge",
+          "name": "Stepping Lunge",
+          "baseName": "Stepping Lunge",
+          "order": 1,
+          "description": "Forward and backward movement through the sagittal plane.",
+          "functions": [
+            "Forward and backward movement through the sagittal plane"
+          ],
+          "keyPoints": [
+            "Maintain an upright torso with your midsection tight. Avoid arching through the back",
+            "Keep the head over the shoulders",
+            "Point the trailing knee straight down at the ground",
+            "Your legs should remain hip width apart. Do not step out to the side for added stability",
+            "After stepping into the bottom of a lunge, step forward with the right leg, and return to an upright standing position with your feet parallel and midsection tight",
+            "Step back with the right leg into a backwards lunge, with an upright torso and the trailing knee pointing straight down",
+            "Step backwards with the left leg, pushing off your left heel, and return to the original standing position to complete one repetition"
+          ],
+          "thumbnail": "thumbnails/stepping-lunge.jpg",
+          "sourcePages": [
+            140,
+            141,
+            142,
+            143,
+            144
+          ]
+        },
+        {
+          "id": "side-lunge",
+          "name": "Side Lunge",
+          "baseName": "Side Lunge",
+          "order": 2,
+          "description": "Lateral movement through the frontal plane of motion.",
+          "functions": [
+            "Lateral movement through the frontal plane of motion"
+          ],
+          "keyPoints": [
+            "Keep your feet parallel throughout the exercise",
+            "While keeping your right leg straight and bending your left knee, push your hips back, while keeping your chest up",
+            "Keep your left knee pointing in the same direction as your feet (to the front)",
+            "Push off your left heel, and return to the starting position",
+            "As you return to the starting position, do not let the toes of the left foot turn out"
+          ],
+          "thumbnail": "thumbnails/side-lunge.jpg",
+          "sourcePages": [
+            145,
+            146
+          ]
+        },
+        {
+          "id": "tipsy-step",
+          "name": "Tipsy Step",
+          "baseName": "Tipsy Step",
+          "order": 3,
+          "description": "Cross stepping the body challenges postural control while shifting the the hips in the transverse plane of motion stretching the IT band, medial hip rotators, and hip flexors on the way down and strengthening adductors in the bottom position.",
+          "functions": [
+            "Cross stepping the body challenges postural control while shifting the the hips in the transverse plane of motion stretching the IT band, medial hip rotators, and hip flexors on the way down and strengthening adductors in the bottom position"
+          ],
+          "keyPoints": [
+            "With your body remaining facing forward, step across your body into a lunge",
+            "Maintain an upright torso that remains facing in the same direction that you started in",
+            "Keep the midsection tight to avoid arching the back",
+            "Point the trailing knee straight down at the ground"
+          ],
+          "thumbnail": "thumbnails/tipsy-step.jpg",
+          "sourcePages": [
+            147,
+            148
+          ]
+        },
+        {
+          "id": "straight-lunge",
+          "name": "Straight Lunge",
+          "baseName": "Straight Lunge",
+          "order": 4,
+          "description": "Improved balance, flexibility and joint alignment during front and back movement in the sagittal plane of motion.",
+          "functions": [
+            "Improved balance, flexibility and joint alignment during front and back movement in the sagittal plane of motion"
+          ],
+          "keyPoints": [
+            "While maintaining a tall, upright torso, take a big step forward so that you land with your left knee over your left ankle",
+            "Keep your abdominals tight, and avoid arching through the back",
+            "The trailing knee points straight down at the ground",
+            "From the first lunging position, with your left leg forward, push off your left heel, and take a giant step backwards so that you land in a deep lunging position with your right leg forward",
+            "Maintain an upright torso, with your abdominals flexed, and point the trailing knee straight down at the ground"
+          ],
+          "thumbnail": "thumbnails/straight-lunge.jpg",
+          "sourcePages": [
+            149,
+            150,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bending",
+      "name": "Bending",
+      "category": "Integrated Standing Exercises",
+      "thumbnail": "thumbnails/group-bending.jpg",
+      "exercises": [
+        {
+          "id": "deadlift",
+          "name": "Deadlift",
+          "baseName": "Deadlift",
+          "order": 1,
+          "description": "Front to back bending movement with a neutral spine and bent knees.",
+          "functions": [
+            "Front to back bending movement with a neutral spine and bent knees"
+          ],
+          "keyPoints": [
+            "Push your hips back, and bend forward with the knees slightly bent",
+            "Keep your midsection tight and your back flat",
+            "Only go as far down as you can while maintaining a neutral spine",
+            "Feet remain parallel with knees facing forward"
+          ],
+          "thumbnail": "thumbnails/deadlift.jpg",
+          "sourcePages": [
+            153,
+            154
+          ]
+        },
+        {
+          "id": "romanian-deadlift-rdl",
+          "name": "Romanian Deadlift (RDL)",
+          "baseName": "Romanian Deadlift (RDL)",
+          "order": 2,
+          "description": "Front to back bending at the hips with straight legs; Lengthen and strengthen the hamstrings and calves; Strengthen the spinal erectors and lengthen the latissimus dorsi, especially in the bottom position.",
+          "functions": [
+            "Front to back bending at the hips with straight legs",
+            "Lengthen and strengthen the hamstrings and calves",
+            "Strengthen the spinal erectors and lengthen the latissimus dorsi, especially in the bottom position"
+          ],
+          "keyPoints": [
+            "With your feet parallel and hip width apart, push your hips back, and bend forward",
+            "Continue to bend forward until your feel a stretch in the bottom position",
+            "Go only as far as you can without rounding the back. Keep your spine in a neutral position",
+            "In the bottom position, make yourself as long and straight as possible while keeping your midsection tight"
+          ],
+          "thumbnail": "thumbnails/romanian-deadlift-rdl.jpg",
+          "sourcePages": [
+            155,
+            156
+          ]
+        },
+        {
+          "id": "1-legged-deadlift",
+          "name": "1-Legged Deadlift",
+          "baseName": "1-Legged Deadlift",
+          "order": 3,
+          "description": "Unilateral hip hinging with bent legs to challenge the control of rotation and stability of the supporting leg.",
+          "functions": [
+            "Unilateral hip hinging with bent legs to challenge the control of rotation and stability of the supporting leg"
+          ],
+          "keyPoints": [
+            "Push your hips straight back and bend forward with the upper body while keeping your spine long and neutral",
+            "Toes of the supporting foot should face straight ahead",
+            "Keep the knee of the elevated leg pointing straight down"
+          ],
+          "thumbnail": "thumbnails/1-legged-deadlift.jpg",
+          "sourcePages": [
+            157,
+            158
+          ]
+        },
+        {
+          "id": "1-legged-rdl",
+          "name": "1-Legged RDL",
+          "baseName": "1-Legged RDL",
+          "order": 4,
+          "description": "Unilateral hip hinging with straight legs to challenge the control of rotation for both legs, especially aiding in stability of the supporting leg; Stretch the hamstring and calf of the supporting leg, while strengthening the medial rotators of the elevated leg.",
+          "functions": [
+            "Unilateral hip hinging with straight legs to challenge the control of rotation for both legs, especially aiding in stability of the supporting leg",
+            "Stretch the hamstring and calf of the supporting leg, while strengthening the medial rotators of the elevated leg"
+          ],
+          "keyPoints": [
+            "With the toes of you supporting foot pointing straight ahead , lift your right leg behind yourself while hinging forward with the upper body",
+            "Keep the feet as parallel as possible and knee of elevated leg pointing straight down at the ground",
+            "Maintain a straight line from the heel of the elevated leg to the head"
+          ],
+          "thumbnail": "thumbnails/1-legged-rdl.jpg",
+          "sourcePages": [
+            159,
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "step-ups",
+      "name": "Step Ups",
+      "category": "Integrated Standing Exercises",
+      "thumbnail": "thumbnails/group-step-ups.jpg",
+      "exercises": [
+        {
+          "id": "stork-stance",
+          "name": "Stork Stance",
+          "baseName": "Stork Stance",
+          "order": 1,
+          "description": "Challenge stability and posture control during hip flexion in a standing position.",
+          "functions": [
+            "Challenge stability and posture control during hip flexion in a standing position"
+          ],
+          "keyPoints": [
+            "Lift your left knee as high as possible while standing up as tall and straight as possible",
+            "The feet should remain parallel with your toes pointing straight ahead",
+            "Keep the leg of the supporting leg totally straight",
+            "Tighten your abdominals to avoid arching through the back"
+          ],
+          "thumbnail": "thumbnails/stork-stance.jpg",
+          "sourcePages": [
+            162,
+            163
+          ]
+        },
+        {
+          "id": "gate-swing",
+          "name": "Gate Swing",
+          "baseName": "Gate Swing",
+          "order": 2,
+          "description": "Challenge the ability to externally rotate a knee away from it’s contralateral shoulder in a standing position during hip flexion.",
+          "functions": [
+            "Challenge the ability to externally rotate a knee away from it’s contralateral shoulder in a standing position during hip flexion"
+          ],
+          "keyPoints": [
+            "While keeping the supporting leg and upper body straight, lift the left knee as high possible",
+            "From the top position, rotate the left knee to the outside while pulling the right shoulder blade back to prevent movement through the upper body",
+            "Reverse the motion, and return to the starting position to complete one repetition"
+          ],
+          "thumbnail": "thumbnails/gate-swing.jpg",
+          "sourcePages": [
+            164,
+            165
+          ]
+        },
+        {
+          "id": "cross-step",
+          "name": "Cross Step",
+          "baseName": "Cross Step",
+          "order": 3,
+          "description": "Challenge control of supination and pronation in the feet to improve the mechanics for cross body stepping.",
+          "functions": [
+            "Challenge control of supination and pronation in the feet to improve the mechanics for cross body stepping"
+          ],
+          "keyPoints": [
+            "Begin with a good Stork Stance posture",
+            "Step across the right foot with the left foot",
+            "As you step across the supporting right foot with the left foot, draw the right shoulder blade back",
+            "In the bottom position, prevent supination of the supporting foot, while ensuring pronation of the elevated left foot"
+          ],
+          "thumbnail": "thumbnails/cross-step.jpg",
+          "sourcePages": [
+            166,
+            167,
+            168
+          ]
+        },
+        {
+          "id": "straddle-step",
+          "name": "Straddle Step",
+          "baseName": "Straddle Step",
+          "order": 4,
+          "description": "Challenge control of lateral movement.",
+          "functions": [
+            "Challenge control of lateral movement"
+          ],
+          "keyPoints": [
+            "Lift your left leg, and get into a good Stork Stance",
+            "From Stork Stance, step to the left while keeping your feet parallel",
+            "As soon as your left foot comes in contact with the ground, immediately and aggressively drive your hips straight back to stop the sideways movement",
+            "Keep your chest up and abdominals tight, while sinking into a wide squat",
+            "From the bottom of a wide squat, lightly push off the left heel to return to Stork Stance",
+            "The push off should be just hard enough to get you out of a squat and your left leg into the air. The last portion of the movement, before getting to Stork Stance, should be a pulling movement using your leg adductors"
+          ],
+          "thumbnail": "thumbnails/straddle-step.jpg",
+          "sourcePages": [
+            169,
+            170,
+            171,
+            172
+          ]
+        }
+      ]
+    }
+  ]
+}
