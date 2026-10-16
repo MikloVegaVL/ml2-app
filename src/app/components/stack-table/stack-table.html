@@ -1,5 +1,5 @@
 <div class="header">
-  <h2 class="title">8-Stack Training Plan</h2>
+  <h2 class="title">Training Plan</h2>
   <button
     mat-stroked-button
     color="primary"
@@ -11,48 +11,150 @@
   </button>
 </div>
 
-<table mat-table [dataSource]="rows()" class="stack-table">
-  <ng-container matColumnDef="stack">
-    <th mat-header-cell *matHeaderCellDef class="stack-col">Stack</th>
-    <td mat-cell *matCellDef="let row" class="stack-col">{{ row.stack }}</td>
-  </ng-container>
+@if (isCompact()) {
+  <div class="cards">
+    @for (row of rows(); track row.stack) {
+      <div class="stack-card">
+        <div class="stack-card-title">Stack {{ row.stack }}</div>
 
-  <ng-container matColumnDef="isolated">
-    <th mat-header-cell *matHeaderCellDef>Isolated Floor Exercises</th>
-    <td mat-cell *matCellDef="let row" class="cell">
-      @for (exercise of row.isolated; track exercise.id) {
-        <span class="cell-ex">{{ exercise.name }}</span>
-      }
-    </td>
-  </ng-container>
+        <div class="field">
+          <span class="field-label">Isolated Floor Exercises</span>
+          <div class="field-value">
+            @for (exercise of row.isolated; track exercise.id) {
+              <div class="cell-ex">
+                <img
+                  class="cell-thumb"
+                  [src]="service.thumbnailUrl(exercise.thumbnail)"
+                  [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                  [alt]="exercise.name"
+                  loading="lazy"
+                />
+                <span class="cell-name">{{ exercise.name }}</span>
+              </div>
+            }
+          </div>
+        </div>
 
-  <ng-container matColumnDef="mobility">
-    <th mat-header-cell *matHeaderCellDef>Mobility Floor Exercises</th>
-    <td mat-cell *matCellDef="let row" class="cell">
-      @for (exercise of row.mobility; track exercise.id) {
-        <span class="cell-ex">{{ exercise.name }}</span>
-      }
-    </td>
-  </ng-container>
+        <div class="field">
+          <span class="field-label">Mobility Floor Exercises</span>
+          <div class="field-value">
+            @for (exercise of row.mobility; track exercise.id) {
+              <div class="cell-ex">
+                <img
+                  class="cell-thumb"
+                  [src]="service.thumbnailUrl(exercise.thumbnail)"
+                  [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                  [alt]="exercise.name"
+                  loading="lazy"
+                />
+                <span class="cell-name">{{ exercise.name }}</span>
+              </div>
+            }
+          </div>
+        </div>
 
-  <ng-container matColumnDef="kneeling">
-    <th mat-header-cell *matHeaderCellDef>Kneeling transitions</th>
-    <td mat-cell *matCellDef="let row" class="cell">
-      @for (exercise of row.kneeling; track exercise.id) {
-        <span class="cell-ex">{{ exercise.name }}</span>
-      }
-    </td>
-  </ng-container>
+        <div class="field">
+          <span class="field-label">Kneeling transitions</span>
+          <div class="field-value">
+            @if (row.kneeling) {
+              <span class="cell-name">{{ row.kneeling }}</span>
+            }
+          </div>
+        </div>
 
-  <ng-container matColumnDef="integrated">
-    <th mat-header-cell *matHeaderCellDef>Integrated Standing Exercises</th>
-    <td mat-cell *matCellDef="let row" class="cell">
-      @for (exercise of row.integrated; track exercise.id) {
-        <span class="cell-ex">{{ exercise.name }}</span>
-      }
-    </td>
-  </ng-container>
+        <div class="field">
+          <span class="field-label">Integrated Standing Exercises</span>
+          <div class="field-value">
+            @for (exercise of row.integrated; track exercise.id) {
+              <div class="cell-ex">
+                <img
+                  class="cell-thumb"
+                  [src]="service.thumbnailUrl(exercise.thumbnail)"
+                  [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                  [alt]="exercise.name"
+                  loading="lazy"
+                />
+                <span class="cell-name">{{ exercise.name }}</span>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+} @else {
+  <div class="table-wrap">
+    <table mat-table [dataSource]="rows()" class="stack-table">
+      <ng-container matColumnDef="stack">
+        <th mat-header-cell *matHeaderCellDef class="stack-col">Stack</th>
+        <td mat-cell *matCellDef="let row" class="stack-col">{{ row.stack }}</td>
+      </ng-container>
 
-  <tr mat-header-row *matHeaderRowDef="columns"></tr>
-  <tr mat-row *matRowDef="let row; columns: columns"></tr>
-</table>
+      <ng-container matColumnDef="isolated">
+        <th mat-header-cell *matHeaderCellDef>Isolated Floor Exercises</th>
+        <td mat-cell *matCellDef="let row" class="cell">
+          @for (exercise of row.isolated; track exercise.id) {
+            <div class="cell-ex">
+              <img
+                class="cell-thumb"
+                [src]="service.thumbnailUrl(exercise.thumbnail)"
+                [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                [alt]="exercise.name"
+                loading="lazy"
+              />
+              <span class="cell-name">{{ exercise.name }}</span>
+            </div>
+          }
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="mobility">
+        <th mat-header-cell *matHeaderCellDef>Mobility Floor Exercises</th>
+        <td mat-cell *matCellDef="let row" class="cell">
+          @for (exercise of row.mobility; track exercise.id) {
+            <div class="cell-ex">
+              <img
+                class="cell-thumb"
+                [src]="service.thumbnailUrl(exercise.thumbnail)"
+                [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                [alt]="exercise.name"
+                loading="lazy"
+              />
+              <span class="cell-name">{{ exercise.name }}</span>
+            </div>
+          }
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="kneeling">
+        <th mat-header-cell *matHeaderCellDef>Kneeling transitions</th>
+        <td mat-cell *matCellDef="let row" class="cell">
+          @if (row.kneeling) {
+            <span class="cell-ex">{{ row.kneeling }}</span>
+          }
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="integrated">
+        <th mat-header-cell *matHeaderCellDef>Integrated Standing Exercises</th>
+        <td mat-cell *matCellDef="let row" class="cell">
+          @for (exercise of row.integrated; track exercise.id) {
+            <div class="cell-ex">
+              <img
+                class="cell-thumb"
+                [src]="service.thumbnailUrl(exercise.thumbnail)"
+                [srcset]="service.thumbnailSrcset(exercise.thumbnail)"
+                [alt]="exercise.name"
+                loading="lazy"
+              />
+              <span class="cell-name">{{ exercise.name }}</span>
+            </div>
+          }
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="columns"></tr>
+      <tr mat-row *matRowDef="let row; columns: columns"></tr>
+    </table>
+  </div>
+}

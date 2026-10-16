@@ -23,9 +23,9 @@ export class ExerciseService {
     { initialValue: undefined },
   );
 
-  /** Absolute URL for a thumbnail path stored relative to the app root. */
+  /** URL for a thumbnail path, relative to the app's base href (works at root and in subfolders). */
   thumbnailUrl(path: string): string {
-    return path.startsWith('/') ? path : `/${path}`;
+    return path;
   }
 
   /** `srcset` value: 1x (160px) and 2x (@2x, 320px) variants. */
